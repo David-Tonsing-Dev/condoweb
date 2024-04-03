@@ -48,11 +48,11 @@ const Home = () => {
     });
   }, []);
 
-  useEffect(() => {
-    window.addEventListener("load", () =>
-      alert("keep the window play the music?")
-    );
-  }, []);
+  //   useEffect(() => {
+  //     window.addEventListener("load", () =>
+  //       alert("keep the window play the music?")
+  //     );
+  //   }, []);
 
   const musicHandler = () => {
     console.log("musicElement", musicElement);
